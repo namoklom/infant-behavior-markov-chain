@@ -67,7 +67,7 @@ The Markov Chain Transition Graph visually represents the possible state transit
 
 ![image](https://github.com/user-attachments/assets/2c3a9808-a081-44b4-9496-aa5cac750566)
 
-This plot illustrates the **steady-state probabilities** derived from the Markov Chain model, which shows the long-run behavior distribution of the baby assuming an infinite number of transitions.
+The bar chart displays the steady-state distribution of a baby's behavior across three states: SLEEPING, CRYING, and HAPPY. In a steady state, the probabilities reflect the long-term proportion of time the baby is expected to spend in each state, regardless of the starting point. All three states—SLEEPING, CRYING, and HAPPY—have nearly equal steady-state probabilities (around 0.33), indicating a balanced behavioral cycle over time. This suggests that, although the transition probabilities between states vary, the baby tends to spend roughly equal amounts of time sleeping, crying, and being happy in the long run.
 
 In this specific analysis, the steady-state probabilities are as follows:
 
