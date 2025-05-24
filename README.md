@@ -59,11 +59,7 @@ The heatmap shows the transition probabilities between three states—sleeping, 
 
 ![image](https://github.com/user-attachments/assets/a89e96a4-e783-4ac1-a4c2-c73488ef0304)
 
-A directed graph is built using `networkx` to visually depict behavior state transitions. Nodes represent the states, while edges represent the transition direction and are weighted by transition probability.
-
-**Interpretation**:
-- Arrows show possible movements between states.
-- Edge thickness or labels indicate transition strength.
+The Markov Chain Transition Graph visually represents the possible state transitions and their probabilities between "SLEEPING", "CRYING", and "HAPPY" using directed arrows. Each arrow points from a current state to a possible next state, with its thickness and label indicating the transition probability (e.g., 0.38 from HAPPY to SLEEPING). The color scheme—magenta nodes and red edges—helps highlight state transitions, and the arc-style arrows make directionality clearer. From the graph, we observe that transitions like SLEEPING to HAPPY or CRYING have relatively high probabilities, whereas transitions from CRYING to HAPPY are much less likely. This confirms that "CRYING" is a more transient state, while "SLEEPING" and "HAPPY" have stronger cyclical links.
 
 ---
 
