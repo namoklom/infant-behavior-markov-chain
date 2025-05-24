@@ -43,12 +43,7 @@ The notebook walks through the following main steps:
 
 ![image](https://github.com/user-attachments/assets/28f07ba4-06dc-4203-9570-310373703ece)
 
-This bar plot provides a visual summary of how often each behavior appears in the sequence. It uses `seaborn.barplot` to create an aesthetically pleasing chart that highlights the dominance of certain states.
-
-**Interpretation**:
-- The behavior `SLEEPING` occurs most frequently, indicating a calm or resting state as the default.
-- `HAPPY` is the second most frequent state, showing positive engagement.
-- `CRYING` is less frequent, potentially indicating rare discomfort or needs.
+The bar chart titled "Frequency of Each Behavior" illustrates how often each infant behavior—SLEEPING, HAPPY, and CRYING—occurs in the dataset. Among the three states, SLEEPING is the most frequent, appearing approximately 37 times, followed by HAPPY with around 24 occurrences, and CRYING as the least frequent with about 9 instances.
 
 ---
 
