@@ -41,7 +41,7 @@ The notebook walks through the following main steps:
 
 ### Frequency of Each Behavior
 
-![image](https://github.com/user-attachments/assets/421e12bd-0761-4059-bd9e-a2cc32633b02)
+![image](https://github.com/user-attachments/assets/28f07ba4-06dc-4203-9570-310373703ece)
 
 This bar plot provides a visual summary of how often each behavior appears in the sequence. It uses `seaborn.barplot` to create an aesthetically pleasing chart that highlights the dominance of certain states.
 
@@ -54,7 +54,7 @@ This bar plot provides a visual summary of how often each behavior appears in th
 
 ### Transition Probability Heatmap
 
-![image](https://github.com/user-attachments/assets/3517154c-da46-4e52-99a4-f7bbf259454f)
+![image](https://github.com/user-attachments/assets/79258593-48a9-495d-bc70-77b58309837d)
 
 A heatmap generated using `seaborn.heatmap` visualizes the transition probabilities between different behavior states. Each cell `[i, j]` represents the probability of transitioning from state `i` to state `j`.
 
@@ -67,7 +67,7 @@ A heatmap generated using `seaborn.heatmap` visualizes the transition probabilit
 
 ### Transition Graph
 
-![image](https://github.com/user-attachments/assets/d5bba9b8-49d5-411b-8142-cb58c1ff989c)
+![image](https://github.com/user-attachments/assets/a89e96a4-e783-4ac1-a4c2-c73488ef0304)
 
 A directed graph is built using `networkx` to visually depict behavior state transitions. Nodes represent the states, while edges represent the transition direction and are weighted by transition probability.
 
@@ -79,7 +79,7 @@ A directed graph is built using `networkx` to visually depict behavior state tra
 
 ### Steady-State Distribution of Baby Behavior
 
-![image](https://github.com/user-attachments/assets/1bcb4f34-d7c7-4407-ab01-a2f516d7834d)
+![image](https://github.com/user-attachments/assets/2c3a9808-a081-44b4-9496-aa5cac750566)
 
 This plot illustrates the **steady-state probabilities** derived from the Markov Chain model, which shows the long-run behavior distribution of the baby assuming an infinite number of transitions.
 
