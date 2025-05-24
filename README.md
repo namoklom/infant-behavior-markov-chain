@@ -43,7 +43,7 @@ The notebook walks through the following main steps:
 
 ![image](https://github.com/user-attachments/assets/28f07ba4-06dc-4203-9570-310373703ece)
 
-The bar chart titled "Frequency of Each Behavior" illustrates how often each infant behavior—SLEEPING, HAPPY, and CRYING—occurs in the dataset. Among the three states, SLEEPING is the most frequent, appearing approximately 37 times, followed by HAPPY with around 24 occurrences, and CRYING as the least frequent with about 9 instances.
+The bar chart illustrates how often each infant behavior—SLEEPING, HAPPY, and CRYING—occurs in the dataset. Among the three states, SLEEPING is the most frequent, appearing approximately 37 times, followed by HAPPY with around 24 occurrences, and CRYING as the least frequent with about 9 instances.
 
 ---
 
@@ -51,12 +51,7 @@ The bar chart titled "Frequency of Each Behavior" illustrates how often each inf
 
 ![image](https://github.com/user-attachments/assets/79258593-48a9-495d-bc70-77b58309837d)
 
-A heatmap generated using `seaborn.heatmap` visualizes the transition probabilities between different behavior states. Each cell `[i, j]` represents the probability of transitioning from state `i` to state `j`.
-
-**Interpretation**:
-- Brighter shades represent higher probabilities.
-- Diagonal cells often represent the likelihood of remaining in the same state.
-- Patterns such as frequent transitions from `SLEEPING` to `HAPPY` might suggest environmental or developmental responses.
+The heatmap shows the transition probabilities between three states—sleeping, crying, and happy—based on observed behavior patterns. From the "sleeping" state, there’s a high likelihood of transitioning to either "crying" (0.67) or "happy" (0.71), suggesting sleep often ends in emotional responses. The "crying" state is relatively unstable, with low probabilities of remaining in or transitioning to "happy", and a higher chance (0.19) of shifting back to "sleeping". From the "happy" state, the most common next state is "sleeping" (0.43), followed by a moderate chance of staying happy (0.25). Overall, this suggests a cyclic pattern where sleep frequently leads to emotional states, and crying tends to resolve back into sleep.
   
 ---
 
