@@ -1,4 +1,4 @@
-# Modelling Infant Behavior Transition using Markov Chain 
+# Modelling Infant Behavior Transition using Markov Chain Simulation
 
 ## 👤 Author
 
